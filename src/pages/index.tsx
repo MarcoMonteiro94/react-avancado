@@ -1,11 +1,11 @@
-import Head from "next/head";
-import styles from "../../styles/Home.module.css";
+import Head from 'next/head';
+import styles from '../../styles/Home.module.css';
 
 type Props = {
   title: string;
 };
 
-export default function Home({ title = "React Avançado" }: Props) {
+export default function Home({ title = 'React Avançado' }: Props) {
   return (
     <div className={styles.container}>
       <Head>
@@ -17,7 +17,7 @@ export default function Home({ title = "React Avançado" }: Props) {
         <h1 className={styles.title}>React Avançado!</h1>
 
         <p className={styles.description}>
-          Get started by editing{" "}
+          Get started by editing{' '}
           <code className={styles.code}>src/pages/index.tsx</code>
         </p>
 
@@ -58,7 +58,7 @@ export default function Home({ title = "React Avançado" }: Props) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{" "}
+          Powered by{' '}
           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
       </footer>
