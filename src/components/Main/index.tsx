@@ -1,7 +1,13 @@
 import React from 'react';
 
-const index = () => {
-  return <div></div>;
+const Main = () => {
+  const sayHello = true;
+  return (
+    <main>
+      <h1>React Avançado</h1>
+      {sayHello ? 'Hello' : 'Goodbye'};
+    </main>
+  );
 };
 
-export default index;
+export default Main;
